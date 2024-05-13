@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>web pertama</title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="assets/icon/partner.png" alt="logo" class="logo-img"/>
+				<h1 class="logo-title">YAPZ X</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#jasa">JASA</a></li>
+					<li><a href="mailto:">KONTAK</a></li>
+				</ul>
+			</nav>
+			<button class="btn-cta" onclick="redirInstagram()">follow Saya</button>
+		</header>
+		<div class="container">
+			<div class="intro">
+				<p class="title">Hello,Nobita here!</p>
+				<p class="description">Tecnology Influencer From Vilage.</p>
+				<img src="assets/foto/nobita.jpg" alt="nobita foto 1" class="img-foto"/>
+			</div>
+		</div>
+		<div class="paralax">
+			<div class="tentang">
+				<p class="title">Saya Adalah Programemr</p>
+				<p class="description">Ngoding aja dulu, jagonya belakangan.</p>
+				<div class="mt-10">
+					<button class="btn-cta" onclick="redirWhatsapp()">Mari Kerjasama</button>
+				</div>
+			</div>
+			<div class="container">
+				<div class="card" id="jasa">
+					<div class="card-item">
+					<img src="assets/icon/24-hours.png" alt="icon 1" class="icon"/>
+						<p class="card-title">Pelayanan nonstop</p>
+						<p class="card-description">servis non stop jika anda membutuhkan bantuan</p>
+					</div>
+					<div class="card-item">
+					<img src="assets/icon/hot-deal.png" alt="icon 2" class="icon"/>
+						<p class="card-title">Saya programer murah</p>
+						<p class="card-description">Biaya jasa yang saya berikan pasti murah dan terjamin</p>
+					</div>
+					<div class="card-item">
+						<img src="assets/icon/rating.png" alt="icon 3" class="icon"/>
+						<p class="card-title">684 review</p>
+						<p class="card-description">Mereka sangat senang dalam bekerja sama dengan saya</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p class="title">&copy; Rizki Website 2024</p>
+		</footer>
+		
+		<script>
+			function redirInstagram() {
+				window.location.href = "https://instagram.com/onyxx32"
+			}
+			
+			function redirWhatsapp() {
+				window.location.href = "https://wa.me/+6285724212910"
+			}
+		</script>
+	</body>
+</html>
